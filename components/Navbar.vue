@@ -4,21 +4,22 @@
       v-model="drawer"
       app
       temporary
-      class="info"
+      class="secondary"
     >
       <nuxt-link to="/" exact class="text-decoration-none">
         <v-system-bar
           height="55"
           class="secondary"
         >
-          <v-img
+          <h6 class="primary--text">SAMPLE PROJECT</h6>
+          <!-- <v-img
             alt="logo"
             contain
             src=""
             transition="scale-transition"
             width="200"
             class="shrink"
-          />
+          /> -->
         </v-system-bar>
       </nuxt-link>
       <v-list nav>
@@ -31,7 +32,7 @@
           exact
         >
           <v-list-item-content>
-            <v-list-item-title class="text-uppercase font-weight-black primary--text" v-text="item.title" />
+            <v-list-item-title class="text-capitalize primary--text" v-text="item.title" />
           </v-list-item-content>
         </v-list-item>
       </v-list>
@@ -39,7 +40,6 @@
     <v-app-bar
       app
       flat
-      hide-on-scroll
       color="secondary"
     >
       <v-app-bar-nav-icon
@@ -49,7 +49,7 @@
       >
       </v-app-bar-nav-icon>
       <nuxt-link to="/" exact class="text-decoration-none ml-16">
-      <h1>SAMPLE PROJECT</h1>
+      <h3>SAMPLE PROJECT</h3>
         <!-- <v-img
           contain
           src=""
