@@ -1,4 +1,4 @@
-# zaj-frontend
+# sample-frontend
 
 ## Build Setup
 
