@@ -1,8 +1,8 @@
 import colors from 'vuetify/es5/util/colors'
 
 export default {
+  target: 'static',
   head: {
-    target: 'static',
     titleTemplate: '%s - SAMPLE PROJECT',
     title: 'home',
     htmlAttrs: {
