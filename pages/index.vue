@@ -17,7 +17,7 @@
 export default {
   data: () => ({
     transition: '',
-    title: '',
+    title: 'home',
     description: '',
     image: '',
     
