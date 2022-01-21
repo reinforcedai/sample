@@ -11,7 +11,7 @@
           height="55"
           class="secondary"
         >
-          <h6 class="primary--text">SAMPLE PROJECT</h6>
+          <h4 class="primary--text">SAMPLE PROJECT</h4>
           <!-- <v-img
             alt="logo"
             contain

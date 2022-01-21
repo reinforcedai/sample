@@ -23,6 +23,7 @@ export default {
   ],
 
   plugins: [
+    { src: "~/plugins/google-maps", ssr: true }
   ],
 
   components: true,
@@ -42,17 +43,18 @@ export default {
       themes: {
         light: {
           primary: '#FFFFFF',
-          secondary: '#E53935',
-          accent: '#eeeeee',
-          info: '#efefef',
-          warning: '#212121',
-          error: '#121212',
-          success: '#FFEBEE',
+          secondary: '#6200EA',
+          accent: '#9C27B0',
+          info: '#7E57C2',
+          warning: '#280BD4',
+          error: '#BA68C8',
+          success: '#EDE7F6',
         }
       }
     }
   },
 
   build: {
+    transpile: [/^vue2-google-maps($|\/)/]
   }
 }

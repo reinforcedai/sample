@@ -2,7 +2,7 @@
   <v-footer padless>
     <v-card flat tile width="100%" class="secondary text-center">
 
-      <v-row class="primary--text font-weight-thin pt-16">
+      <v-row class="primary--text warning font-weight-thin pt-16">
          
         <v-col cols="12" md="4" class="text-center">
           <h3>Menu</h3>
@@ -25,18 +25,11 @@
           <social-links />
         </v-col>
         
-        <v-col cols="12" md="4" class="text-center">
+        <v-col cols="12" md="4" class="success--text text-center">
           <h3>Contact Us</h3>
-          <p class="success--text">
-            Phone: +234 (0)90x xxx xxxx
-          </p>
-          <p class="success--text">
-            Email: info@example.com
-          </p>
-          <p class="success--text">
-            Location: Lagos
-          </p>
+          <contact />
         </v-col>
+
       </v-row>
 
       <v-card-text class="success--text py-16">
