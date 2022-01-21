@@ -1,6 +1,6 @@
 export const state = () => ({
-    siteName: 'SAMPLE PROJECT',
-    companyName: 'SAMPLE PROJECT LIMITED',
+    siteName: 'FRONTEND SAMPLE',
+    companyName: 'FRONTEND SAMPLE LIMITED',
     navItems: [
       { title: 'Home', to: '/', },
       { title: 'Services', to: '/services', },

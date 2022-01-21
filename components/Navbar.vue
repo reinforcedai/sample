@@ -11,7 +11,7 @@
           height="55"
           class="secondary"
         >
-          <h4 class="primary--text">SAMPLE PROJECT</h4>
+          <h3 class="primary--text">{{ siteName }}</h3>
           <!-- <v-img
             alt="logo"
             contain
@@ -49,7 +49,7 @@
       >
       </v-app-bar-nav-icon>
       <nuxt-link to="/" exact class="text-decoration-none ml-16">
-      <h3>SAMPLE PROJECT</h3>
+      <h3>{{ siteName }}</h3>
         <!-- <v-img
           contain
           src=""

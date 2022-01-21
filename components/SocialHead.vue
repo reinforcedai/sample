@@ -15,12 +15,12 @@ export default {
     },
     image: {
       type: String,
-      default: 'https://cdn.vuetifyjs.com/images/cards/house.jpg'
+      default: require('../static/frontend.png')
     }
   },
   head() {
     return {
-      titleTemplate: '%s | SAMPLE PROJECT',
+      titleTemplate: '%s | FRONTEND SAMPLE',
       title: this.title,
       meta: [
         {
@@ -55,7 +55,7 @@ export default {
         name: 'twitter:card',
         content: 'summary_large_image'
         },
-        { hid: 'twitter:site', name: 'twitter:site', content: 'SAMPLE PROJECT' },
+        { hid: 'twitter:site', name: 'twitter:site', content: 'FRONTEND SAMPLE' },
         {
           hid: 'twitter:url',
           name: 'twitter:url',
@@ -88,7 +88,7 @@ export default {
           property: 'og:image:alt',
           content: this.title
         },
-        { hid: 'og:site_name', property: 'og:site_name', content: 'SAMPLE PROJECT' },
+        { hid: 'og:site_name', property: 'og:site_name', content: 'FRONTEND SAMPLE' },
         { hid: 'og:type', property: 'og:type', content: 'website' },
         {
           hid: 'og:url',

@@ -3,8 +3,8 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   target: 'static',
   head: {
-    titleTemplate: '%s - SAMPLE PROJECT',
-    title: 'home',
+    titleTemplate: '%s - FRONTEND SAMPLE',
+    title: 'Home',
     htmlAttrs: {
       lang: 'en'
     },

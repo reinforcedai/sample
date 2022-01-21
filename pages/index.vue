@@ -34,9 +34,9 @@
 export default {
   data: () => ({
     transition: '',
-    title: 'home',
+    title: 'Home',
     description: '',
-    image: '',
+    image: require('../static/frontend.png'),
     testimonials: [
       {
         'name': 'John Doe',
